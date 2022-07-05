@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#welcome, #about, #engagements{
+    display: flex;
+    margin: 50px 0;
+}
+
+.half-width{
+    width: 50%;
+    padding: 0 6%;
+}
+
+#welcome .left, #about .right{
+    margin-top: 120px;
+}
+
+#welcome .left h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+#welcome .left .name{
+    color: #33B3FF
+}
+
+#welcome .left p,#about .right p{
+    margin: 40px 0;
+    font-size: 15px;
+    color: rgb(80, 80, 80);
+    line-height: 22px;
+}
+
+.btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #33b3ff, #0090e4);
+    color: #fff;
+    padding: 12px 25px;
+    font-weight: 500;
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px #33B3FF;
+}
+
+#welcome .right img{
+    width: 550px;
+    padding-bottom: 50px;
+}
+
+#about{
+    background-image: url(Images/Frame\ 57.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#about .left{
+    padding-bottom: 0;
+}
+
+#about .left img{
+    padding-left: 20%;
+    width: 380px;
+    
+}
+
+#about .right h1{
+    font-size: 2.5rem;
+    color: rgb(107, 137, 163);
+}
+
+
+#recipie{
+    margin: 50px 0;
+}
+
+#recipie .header{
+    text-align: center;
+    margin: 50px;
+    padding: 0 25%;
+}
+
+#recipie .header h1{
+    font-size: 2.5rem;
+    color: rgb(107, 137, 163);
+    padding: 30px 0;
+}
+
+#recipie .header p{
+    line-height: 24px;
+    color: rgb(80, 80, 80);
+}
+
+#recipie .container{
+    display: flex;
+    padding: 0 6%;
+}
+
+#recipie .container .box{
+    box-shadow: 0px 0px 30px rgb(80, 80, 80, 0.2);
+    margin: 20px;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+#recipie .container .box img{
+    width: 100%;
+}
+
+#recipie .container .box h1{
+    margin: 15px 0;
+}
+
+#recipie .container .box p{
+    line-height: 23px;
+}
+
+#engagements{
+
+    padding: 0 8%;
+}
+
+#engagements .container{
+    width: 100%;
+    display: flex;
+    box-shadow: 0px 0px 30px rgb(80, 80, 80, 0.2);
+    border-radius: 30px;
+    padding: 70px 0;
+}
+
+#engagements .container .box{
+    padding-left: 14%;
+}
+
+#engagements .container .box h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+footer{
+    text-align: center;
+    
+    background-color: rgb(22, 22, 31);
+    padding: 40px 0;
+}
+
+footer h1{
+    color: rgb(83, 106, 126);
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+footer h1 span{
+    color: #0090e4;
+}
+
+footer p{
+    color: rgb(207, 207, 207);
+    
+}
